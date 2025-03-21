@@ -1,0 +1,6 @@
+_build
+_opam
+_tests
+_vscode
+_vscode_ocamlformat
+_vscode_ocamlformat_cache

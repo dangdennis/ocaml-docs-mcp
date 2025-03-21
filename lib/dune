@@ -1,0 +1,17 @@
+(library
+ (name ocaml_mcp)
+ (libraries
+  eio
+  eio.core
+  eio_main
+  cohttp
+  cohttp-eio
+  uri
+  yojson
+  logs
+  str
+  ppx_deriving_yojson.runtime)
+ (preprocess
+  (pps ppx_deriving_yojson))
+ (flags
+  (:standard -w -26-27-35-32-33)))

@@ -1,0 +1,6 @@
+(executable
+ (public_name ocaml_mcp)
+ (name main)
+ (libraries ocaml_mcp eio eio.core eio_main cohttp cohttp-eio uri yojson)
+ (flags
+  (:standard -w -26-27)))
